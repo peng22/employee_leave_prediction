@@ -1,9 +1,9 @@
 # Project Scope
-This project is for a classification model to detect whether the employee will leave the company or not.
+This project is for a classification model to detect whether the employee will leave the company or not. \
 we used data Employee.csv
 
 #### Data Preparation
-We prepared the data by:
+We prepared the data by: \
   1- having lowercase strings for column names. \
   2- For string columns we also converted it to camel case. \
 After That, we divided the data to train, validate, and test data. \
@@ -20,21 +20,21 @@ docker build . -t emp_model
 then we can run the image using: \ 
 docker run   -it  -p 9696:9696 emp_model 
 
-then we can run the predict_local.py after installing requests in our environment
-as the URL will be:
-url = 'http://localhost:9696/predict' 
+then we can run the predict_local.py after installing requests in our environment \
+as the URL will be: \
+url = 'http://localhost:9696/predict' \ 
 and run \
-python predict_local.py
+python predict_local.py \
 
 # Using the deployed model 
-to use the deployed model the url will be:
-url = 'http://peng24.pythonanywhere.com/predict' 
+to use the deployed model the URL will be: \
+url = 'http://peng24.pythonanywhere.com/predict' \
 then run \
-python predict.py
+python predict.py \
 
 
 # predicted dictionary  shape
-Make sure the predicted dictionary to be in this form:
+Make sure the predicted dictionary to be in this form: \
 client = {"education":"bachelors", \
 "joiningyear":2018, \
 "city":"pune", \
