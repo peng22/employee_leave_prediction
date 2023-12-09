@@ -43,7 +43,7 @@ client = {"education":"bachelors", \
 "gender": "male", \
 "everbenched":"yes", \
 "experienceinCurrentdomain":5 \
-}
+} \
 all strings should be in lowercase.
 
 
